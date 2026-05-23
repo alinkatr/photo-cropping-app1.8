@@ -44,7 +44,7 @@
             background: #f0f0f0;
         }
 
-        /* Окно редактора (Шаг 2 и 3) */
+        
         .img-container {
             width: 100%;
             height: 450px;
@@ -63,22 +63,19 @@
             max-height: 100%;
         }
 
-        /* ОКНО РЕЗУЛЬТАТА (Шаг 4) */
-        /* Оно имеет синюю рамку и строго подстраивается под размеры исходного фото */
         #result-outer-box {
             display: none;
             margin: 20px auto;
-            border: 2px solid #3d5a80; /* Внешняя синяя рамка */
-            background-color: #ffffff; /* Белый фон для невырезанных участков */
+            border: 2px solid #3d5a80; 
+            background-color: #ffffff; 
             position: relative;
             box-sizing: border-box;
         }
 
-        /* Контейнер для самого обрезка внутри белого поля */
         #cropped-inner-wrapper {
             position: absolute;
             box-sizing: border-box;
-            border: 1px solid #3d5a80; /* Внутренняя рамка вокруг обрезка */
+            border: 1px solid #3d5a80;
             line-height: 0;
         }
 

@@ -1,0 +1,17 @@
+{
+  "name": "picture",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cropperjs": "^2.1.1",
+    "redom": "^4.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
